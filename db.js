@@ -1,11 +1,11 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'serveo.net',
   user: 'root',
-  password: '',
+  password: 'root',
   database: '4d_mutualclinic',
-  port: 3306 // Porta que você configurou no túnel SSH
+  port: 3307 // Porta que você configurou no túnel SSH
 });
 
 connection.connect((err) => {
