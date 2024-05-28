@@ -7,9 +7,11 @@ connection.query('SELECT * from reports', (err, results, fields) => {
   }
   console.log('A solução é:', results[0].solution);
   console.table(results);
-
+  console.log('obrigado');
   // Encerrar a conexão
-  connection.end();  
+  connection.end(); 
+  
+  
 
 });
 
